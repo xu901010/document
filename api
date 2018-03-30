@@ -1,0 +1,5 @@
+1.Runtime.getRuntime().addShutdownHook()
+	语句：Runtime.getRuntime().addShutdownHook(new Thread(() -> System.out.println("asdfasdf")));
+	描述：在jvm中增加一个关闭的钩子，当jvm关闭的时候，会执行系统中已经设置的所有通过方法addShutdownHook添加的钩子，当系统执行完这些钩子后，jvm才会关闭。
+
+
